@@ -1,0 +1,13 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+    config:
+      server:
+        get:
+          uri: https://github.com/zhouliping123/javastudy.git
+          search-paths: /src/main/resources/config
+          username: 393445453
+          password: zhoulip123456
